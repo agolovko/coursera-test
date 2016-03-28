@@ -1,0 +1,82 @@
+* {
+box-sizing: border-box;
+}
+
+
+.row{
+width:100%;
+display: inline-block;
+padding: 30px 15px 15px 15px;
+}
+/*The browser should display a desktop version of the site when the width of the browser window is 992px and above.*/
+@media (min-width: 992px) {
+ .col-lg-4 {
+	float: left;
+	border: 1px solid black;
+	
+	}	
+.col-lg-4{
+width:33.33%;
+
+}
+}
+
+ /*Tablet view should appear only if the width of the browser window is between 768px and 991px, inclusively. */
+@media (min-width:768px) and (max-width:991px) {
+ .col-md-6,  .col-md-12 {
+	float: left;
+	border: 1px solid black;
+	}
+.col-md-6{
+width:50%; 
+
+}
+.col-md-12{
+width:100%;
+margin-top:10px;
+}
+ }
+@media (max-width:767px) {
+div > div {
+ 		border: 1px solid black;
+		margin-top:5px;
+	}
+}
+ /*section title region that is always positioned at the top right corner of the section no matter the view */
+.section-title {
+ position:relative;
+ border: 1px solid black;
+ text-align:center;
+ width:150px;
+ top:0; 
+ float:right;
+ margin:0;
+  }
+/*use margins and padding and use border-box as your box-sizing as discussed in Lecture 19. */
+
+div > div{
+
+}
+
+@media {
+background-color:#D3D3D3;
+}
+
+p {
+padding: 35px 10px 5px 15px;
+}
+
+.box1{
+background-color:#FFCC00;
+}
+
+.box2{
+background-color:#669966;
+}
+
+.box3{
+background-color:#993366;
+}
+
+h1{
+text-align:center;}
